@@ -33,17 +33,16 @@ namespace Inventory_Manager_ComputerScienceIA_
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.label1.Location = new System.Drawing.Point(233, 26);
+            this.label1.Location = new System.Drawing.Point(350, 40);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 76);
+            this.label1.Size = new System.Drawing.Size(0, 113);
             this.label1.TabIndex = 0;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -51,66 +50,46 @@ namespace Inventory_Manager_ComputerScienceIA_
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.label2.Location = new System.Drawing.Point(233, 149);
+            this.label2.Location = new System.Drawing.Point(350, 229);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 76);
+            this.label2.Size = new System.Drawing.Size(0, 113);
             this.label2.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.label3.Location = new System.Drawing.Point(233, 264);
+            this.label3.Location = new System.Drawing.Point(350, 406);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 76);
+            this.label3.Size = new System.Drawing.Size(0, 113);
             this.label3.TabIndex = 2;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.button1.Location = new System.Drawing.Point(214, 26);
+            this.button1.Location = new System.Drawing.Point(321, 40);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(304, 83);
+            this.button1.Size = new System.Drawing.Size(456, 128);
             this.button1.TabIndex = 3;
             this.button1.Text = "Cart";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.button2.Location = new System.Drawing.Point(214, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(546, 83);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Past Purchases";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.button3.Location = new System.Drawing.Point(214, 228);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(546, 83);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "User Information";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2";
             this.Text = "Account Information";
             this.ResumeLayout(false);
@@ -124,7 +103,5 @@ namespace Inventory_Manager_ComputerScienceIA_
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
     }
 }
